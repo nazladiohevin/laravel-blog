@@ -1,0 +1,38 @@
+.container-me {
+    padding: 20px 30px;
+}
+
+.link-me {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.link-me:hover {
+    color: rgb(74, 74, 255) !important;
+    text-decoration: underline !important;
+}
+
+.me-badge-back:hover {
+    cursor: pointer;
+}
+
+.form-signin {
+    max-width: 520px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
